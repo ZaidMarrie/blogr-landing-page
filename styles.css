@@ -1,0 +1,80 @@
+:root{
+    /* Colors */
+    --accent: hsl(356, 100%, 66%);
+    --accent-light: hsl(355, 100%, 74%);
+    --headings-dark: hsl(208, 49%, 24%);
+    --body-copy-gray-blue: hsl(207, 13%, 34%);
+    --footer-text: hsl(240, 2%, 79%);
+    --footer-bg: hsl(240, 10%, 16%);
+    /* Gradients */
+    --gradient-intro: linear-gradient(90deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    --gradient-body: linear-gradient(90deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+}
+
+/* ===============
+    Global Styles
+=============== */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+/*    width: 100%;*/
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.attribution{
+    margin-top: 1000px;
+}
+
+/* ===============
+    Header Section
+=============== */
+
+header{
+    background-image: var(--gradient-intro);
+}
+
+.navigation-container{
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    width: 80%;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    top: 95px;
+    left: 5%;
+}
+
+.main-menu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-menu{
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+}
+
+.dropdown li{
+    position: relative;
+}
+
